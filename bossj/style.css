@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: #fff0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 150px; /*set the width of the image*/
+    height: 150px; /*set the height of the image*/
+    border-radius: 40px; /*make the image circular*/
+    object-fit: cover; /*ensure the image coversthe area*/
+    border: 2px solid #939565; /*Optional: add a border*/
+}
+
+.header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.header p {
+    color: #666;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #2f4256;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
